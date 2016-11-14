@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        
+        <meta charset="utf-8">
+            
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                
+                <meta name="description" content="">
+                    
+                    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+                        <script type="text/javaScript">
+                            
+                            function postStr(){
+                                return document.getElementById("text1").value;
+                            }
+                        
+                            function postValue(value){
+                                document.getElementById("text1").value = value;
+                            }
+                        
+                            function buttonClick()
+                            {
+                                textlog("hello world");
+                            }
+                        </script>
+                        
+                        </head>
+    
+    <button id="hallo" onclick="buttonClick()"> 点击button</button>
+    <p><input type="text" id="text1" value="返回值"/></p>
+    </body>  
+    
+</html>
